@@ -1,0 +1,120 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide"> <!--this is the best website weyer fr-->
+
+<style>
+        body {
+         font-family: "Audiowide", sans-serif;
+         background-image: url('https://preview.redd.it/g1sgal7axil61.jpg?width=1080&crop=smart&auto=webp&s=04931e7c87f6120e21d91ab26fd9e26f6c893216');
+          }
+</style>
+
+<link rel="stylesheet" href="styles.css">
+     
+<p id="description"> <mark>kentucky fried chic'n</p>
+
+<h1 id="title"><mark>FEEDBACK</h1>
+
+<p id="description"> <mark>let us know you better </p>
+
+<div class="form-container">
+<form id="survey-form"> 
+
+<div class="input-element">
+       <label id="name-label">
+       <mark>Customer Name
+       </label>
+       <input
+       type="text"
+       name="name"
+       id="name"
+       placeholder="name"
+       required
+       /> 
+    
+
+</div>
+
+<div class="input-element">
+        <label id="email-label">
+        <mark>Email
+        </label> 
+        <input
+        type="email"
+        name="email"
+       id="email"
+       placeholder="email"
+       required
+       />
+ 
+</div>
+
+<div class="input-element">
+        <label id="number-label">
+        <mark>Mobile Number
+        </label>
+        <input
+        type="number"
+        name="scale"
+        id="number"
+        min="1"
+        max="10"
+        class="form-control"
+        placeholder="official"
+        />
+ 
+</div>
+
+<div class="input-element">
+        <label id="select-label">
+        <mark>Order Method
+        </label> 
+        <select id="dropdown">
+        <option>At the Store</option>
+        <option>KFC App or Website</option>
+        <option>Aggregators (Swiggy / Zomato)</option>
+        </select>
+</div>
+
+<p></p>
+
+<div>
+      <label><mark>Would you like to give the staff recognition For the amazing MFC experience, or raise a complaint?</label>
+      <p></p>
+      <div>
+      <label><input type="checkbox" name="game" value="yes"><mark>Recognition</label>
+      </div>
+      <div>
+      <label><input type="checkbox" name="game" value="no"><mark>Complaint</label>
+      </div>
+</div>
+
+<p></p>
+
+<div>
+      <label><mark>Order Type</label>
+      <div
+      <input type="checkbox" name=" ideas" value="playin"></label>
+      </div>
+      <p></p>
+      <div>
+      <input type="radio" name=" ideas" value="tickets"><mark>Dine In</label>
+      </div>
+      <div>
+      <input type="radio" name=" ideas" value="food"><mark>Take Away</label>
+      </div><div>
+      <input type="radio" name=" ideas" value="calls"><mark>Delivery</label>
+      </div>
+      <div>
+      <input type="radio" name=" ideas" value="superteams"><mark>Drive Thru</label>
+      </div>
+      <p></p>
+      <div>
+      <div class="input-element">
+      <label><mark>Your Feedback</label>
+<textarea type="text"></textarea>
+      <div class="center">
+      <button type="submit" id="submit">submit</button>
+      </div>
+</div>
+<form> 
+      
+</div>
