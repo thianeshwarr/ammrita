@@ -8,13 +8,12 @@
 <style>
         body {
           font-family: "Audiowide", sans-serif;
-        /* Apply background image */
-            background-image: url('https://preview.redd.it/g1sgal7axil61.jpg?width=1080&crop=smart&auto=webp&s=04931e7c87f6120e21d91ab26fd9e26f6c893216');
-            background-size: cover;  /* or "contain" if you prefer */
-            background-position: center;  /* Optional: to center the image */
-            background-repeat: no-repeat; /* Ensures no repeating */
-            height: 100vh;  /* Viewport height, adjusts to full screen */
-            width: 100%;  /* Full width */
+          background-image: url('https://preview.redd.it/jawaxefnndm61.png?width=640&crop=smart&auto=webp&s=0d3ba497f0092c1517e8fd1e40c7b0905b31301a');
+          background-size: cover;  
+          background-position: center;  
+          background-repeat: no-repeat; 
+          height: 100vh; 
+          width: 100%;  
         }
 
         body {
