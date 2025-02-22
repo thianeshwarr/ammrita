@@ -1,14 +1,112 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide"> <!--this is the best website weyer fr-->
+<!DOCTYPE html>
+<html lang="en-US"> 
+<head>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 
 <style>
         body {
-         font-family: "Audiowide", sans-serif;
-         background-image: url('https://preview.redd.it/g1sgal7axil61.jpg?width=1080&crop=smart&auto=webp&s=04931e7c87f6120e21d91ab26fd9e26f6c893216');
+          font-family: "Audiowide", sans-serif;
+          background-image: url('https://preview.redd.it/g1sgal7axil61.jpg?width=1080&crop=smart&auto=webp&s=04931e7c87f6120e21d91ab26fd9e26f6c893216');
+          }
+
+        body {
+          text-align: center;
+          }
+        
+        .form-container {
+          min-height: 100vh;
+          display: flex;
+                 align-items: center;
+        }
+
+        form {
+          width: 50%;
+          margin: 0 auto;
+        }
+
+        h1{
+          color: salmon;
+        }
+
+        mark{
+          background-color: salmon
+        }
+
+        form{
+          max-width: 450px;
+          text-align: left;
+          padding: 95px;
+  
+        }
+
+        input {
+          padding: 5px;
+          border-radius: 5px;
+          border: none;
+        }
+
+        .input-element{
+          margin: 10px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        select{
+          padding: 5px
+          border-radius: 5px
+          border: none;
+        }
+
+        input[type="checkbox"]{
+           width: 15px;
+           height: 15px;
+        }
+ 
+        p[id="description"]{
+          color: black;
+           }
+ 
+        h1{
+          font-family: audiowide, sans-serif;   
+           }
+
+        option{
+          font-family: audiowide, sans-serif;
+        }
+
+        select[id="dropdown"]{
+          font-family: audiowide, sans-serif;
+        }
+
+        button{
+          font-family: audiowide, sans-serif;
+        }
+
+        input[placeholder="official"]{
+          font-family: audiowide, sans-serif;
+        }
+
+        input[placeholder="email"]{
+          font-family: audiowide, sans-serif;
+        }
+
+        input[placeholder="name"]{
+          font-family: audiowide, sans-serif;
+           }
+        
+        .center{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 60px;
           }
 </style>
 
 <link rel="stylesheet" href="styles.css">
-     
+/head>
+
+<body>
 <p id="description"> <mark>kentucky fried chic'n</p>
 
 <h1 id="title"><mark>FEEDBACK</h1>
@@ -118,3 +216,4 @@
 <form> 
       
 </div>
+</body>
