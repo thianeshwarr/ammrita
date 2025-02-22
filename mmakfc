@@ -8,11 +8,8 @@
 <style>
         body {
           font-family: "Audiowide", sans-serif;
-          
-
-        .background {
-            /* Apply background image */
-            background-image: url(''https://preview.redd.it/g1sgal7axil61.jpg?width=1080&crop=smart&auto=webp&s=04931e7c87f6120e21d91ab26fd9e26f6c893216');
+        /* Apply background image */
+            background-image: url('https://preview.redd.it/g1sgal7axil61.jpg?width=1080&crop=smart&auto=webp&s=04931e7c87f6120e21d91ab26fd9e26f6c893216');
             background-size: cover;  /* or "contain" if you prefer */
             background-position: center;  /* Optional: to center the image */
             background-repeat: no-repeat; /* Ensures no repeating */
