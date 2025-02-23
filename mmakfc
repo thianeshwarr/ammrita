@@ -5,6 +5,10 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+
 <style>
         body {
           font-family: "Audiowide", sans-serif;
@@ -34,6 +38,13 @@
         h1{
           color: salmon;
         }
+
+	#title {
+  	font-family: "Sigmar One", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	}
+
 
         mark{
           background-color: salmon
@@ -212,6 +223,14 @@
       <input type="radio" name=" ideas" value="superteams"><mark>Drive Thru</label>
       </div>
       <p></p>
+
+        <div>
+            <label for="mailingList">
+                <input type="checkbox" id="mailingList" name="mailingList" value="yes">
+                Yes, I would like to receive updates via email.
+            </label>
+        </div><br>
+
       <div>
       <div class="input-element">
       <label><mark>Your Feedback</label>
